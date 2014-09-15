@@ -1,0 +1,703 @@
+.header{
+    background: url("../images/bg.png") no-repeat #ffffff;
+    width: 1920px;
+    height: auto;
+    margin: 0 auto;
+
+}
+.topLogo{
+    width: 112px;
+    position: absolute;
+    top: 0;
+    left: 900px;
+    z-index: 1000;
+}
+.tl_font{
+    color: #E5D59A;
+    font-size: 28px;
+     margin: 0 auto;
+    line-height: 160px;
+
+}
+.tl_font ul{
+    overflow: hidden;
+    width: 444px;
+    margin: 0 auto;
+    height: 180px;
+}
+.tl_font  ul li{
+    float: left;
+    margin: 0 18px;
+}
+.menu_nav img{
+    vertical-align: middle;
+}
+.tl_font span{
+    margin-right: 184px;
+}
+.navbar-wrapper{
+    overflow: hidden;
+    background: rgba( 0, 0, 0, 0.35);
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#22000000,endcolorstr=#22000000);
+}
+
+.navbar-nav{
+    overflow: hidden;
+}
+.navbar-nav li{
+    float: left;
+   list-style: none;
+    margin: 0  41px ;
+    font-size: 20px;
+    height: 122px;
+    line-height: 122px;
+}
+.navbar-nav li a{
+    text-decoration: none;
+    color: #E5D59A;
+    font-weight: normal;
+}
+.navbar-nav li a:hover,.navbar-nav li a:focus,.navbar-nav li a:active{
+    color: #fff;
+}
+.menu_nav{
+    margin: 0 23px !important;
+    z-index: 10;
+    position: relative;
+}
+/*.nav_img {*/
+    /*position: absolute;*/
+    /*left: 786px;*/
+    /*top: 280px;*/
+/*}*/
+.nav_img img{
+    position: relative;
+    top: -45px;
+    display: block;
+    margin: 0 auto;
+}
+.active a{
+    color: #fefefe !important;
+}
+/******************************lunbo******************************/
+
+#jswbox{width:1100px; margin: 0 152px;}
+#jswbox ul{position:relative;height: 650px;}
+#jswbox li{position:absolute;width:0;height:0;z-index:0;cursor:pointer;overflow:hidden;top:152px; left:10px;padding:10px;background:#fff;overflow: hidden;border: 1px solid #D3C1C1}
+#jswbox li img{width:100%;height:100%;vertical-align:top; float:left; border:0;overflow: hidden}
+#jswbox .prev, #jswbox .next{
+    position: relative;
+    background: url("../images/lbbtn.png") no-repeat;
+    top: 520px;
+    left: -82px;
+    width: 60px;
+    height: 60px;
+    float: left;
+    cursor: pointer;
+    background-position: 0 -102px;
+}
+#jswbox .next{
+    background-position: -56px -102px;
+    left: 1560px;
+}
+.play{
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    left: 40%;
+    margin-top: 25%;
+    background: transparent;
+}
+.font{
+    display: block;
+    margin: 0 auto;
+}
+.cul_list{
+    width: 458px;
+    height: auto;
+    background: #fff;
+    border: 2px solid #eee;
+    list-style: none;
+    float: left;
+    margin-right: 100px;
+}
+
+.cul_list dl{
+    margin: 0;
+}
+.dd_cullist{
+    padding: 55px 60px;
+    margin: 0;
+    line-height: 22px;
+    overflow: hidden;
+}
+.separator{
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    top: -5px;
+
+}
+.container{
+    width: 1620px;
+    margin: 0 auto;
+}
+.ul_list{
+    overflow: hidden;
+    margin: 100px auto;
+    padding: 0 16px;
+}
+.logo_culist{
+    background: url("../images/lbbtn.png");
+    background-position: 0 -163px;
+    width: 108px;
+    height: 56px;
+    position: absolute;
+    margin-left: 24px;
+}
+.logo_newlist{
+    background-position: 0 -225px;
+}
+.logo_sylist{
+    background-position: 0 -288px;
+}
+.new_list ul{
+    padding-left: 0;
+}
+.new_list dd{
+    padding-left: 40px;
+}
+.new_list dd > ul > li{
+    overflow: hidden;
+    width: 358px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 3px;
+}
+.new_list dd > ul > li a{
+    color: #6f6f6f;
+}
+.list_style{
+    width: 7px;
+    height: 7px;
+    background: #E5D59A;
+    display: block;
+    margin-right: 14px;
+    float: left;
+    margin-top: 9px;
+}
+.syImg{
+    float: right;
+    margin-left: 18px;
+    margin-right: 22px;
+}
+.sy_list{
+    margin-right: 0;
+}
+.sy_list ul{
+    padding-left: 0;
+}
+.sy_list>ul> li{
+    padding-top: 15px;
+    padding-bottom: 8px;
+    overflow: hidden;
+}
+.sy_list dl{
+    width: 238px;
+    float: right;
+    margin-right: 7px;
+}
+.sy_list dl > dt{
+    font-size: 18px;
+    float: right;
+    margin: 9px 0;
+    color: #000;
+}
+.sy_list dl> dt a{
+    text-decoration: none;
+    color: #000;
+}
+.sy_list dl> dd{
+    float: right;
+    margin-left: 0;
+    font-size: 12px;
+}
+.more{
+    float: left;
+    color: #E5D59A;
+}
+.more a{
+    color: #E5D59A;
+}
+.double{
+    background: #eee;
+}
+.footer {
+    color: #C2C1BE;
+    height: 408px;
+    text-align: center;
+    padding: 86px 0;
+    margin-top: 70px;
+    background-color: #141414;
+    position: relative;
+    width: 1920px;
+}
+.copyright{
+    background: #000;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 84px;
+    line-height: 84px;
+    color: #BFB281;
+}
+
+.footer > ul> li{
+    width: 538px;
+    float: left;
+    font-size: 18px;
+}
+.footer > ul> li p{
+    margin: 10px;
+}
+.footer img{
+    float: left;
+}
+.til_foot{
+    color: #E5D59A;
+    font-size: 24px;
+    margin-bottom: 32px !important;
+    margin-top: 0 !important;
+}
+.fancybox-wrap{
+   z-index: 99;
+}
+.footer a{
+    color: #C2C1BE;;
+}
+.in_content{
+    width: 1920px;
+}
+/*********************************************新闻列表页**********************************************/
+.listnav{
+    height: 70px;
+    background: url("../images/listnav.jpg");
+    width: 1920px;
+}
+.listnav li{
+    float: left;
+    margin: 0 50px;
+    font-size: 20px;
+    height: 70px;
+    line-height: 70px;
+}
+.listnav li a{
+    color: #E5D59A;
+    height: 66px;
+    display: block;
+}
+
+.listnav li a:hover,.listnav li a:focus,.listnav li a:active{
+    border-bottom: 4px solid #E5D59A;
+    color: #fff;
+}
+.nav_avtive{
+    border-bottom: 4px solid #E5D59A;
+    color: #fff !important;
+}
+.lmenu_nav{
+    margin-left: 260px !important;
+}
+.lmenu_nav a{
+    border-bottom: 4px solid #E5D59A;
+    color: #fff !important;
+}
+.bg_list{
+    background: url("../images/listbg.jpg");
+    height: 600px;
+}
+/*************轮播样式***************/
+.focusBox {
+    position: relative;
+    width: 1480px;
+    height: 600px;
+    overflow: hidden;
+    text-align: left;
+    margin: 0 auto;
+}
+.focusBox .pic img {
+    width: 1400px;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+}
+.focusBox .txt-bg {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    height: 175px;
+    width:100%;
+    overflow: hidden;
+}
+.focusBox .txt {
+    position: absolute;
+    bottom: 134px;
+    z-index: 2;
+    height: 194px;
+    width:100%;
+    overflow: hidden;
+}
+.focusBox .txt li{
+    height:194px;
+    position:absolute;
+    padding-left: 90px;
+}
+.focusBox .txt li a{
+    display: block;
+    color: white;
+    padding: 0 0 0 26px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.focusBox .txt li a > p{
+    margin: 14px 0;
+}
+.focusBox .num {
+    position: absolute;
+    z-index: 3;
+   top:40px;
+}
+.lp_title
+{
+    color: #d2d2d2;
+    font-size: 12px;
+    height: 44px;
+    width: 346px;
+    line-height: 22px;
+    padding: 12px;
+    background: rgba( 0, 0, 0, 0.35);
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#22000000,endcolorstr=#22000000);
+}
+.lp_date{
+    width: 90px;
+    height: 30px;
+    border: 1px solid #CAC5BA;
+    line-height: 30px;
+    text-align: center;
+    font-weight: normal;
+}
+.focusBox .num li{
+    position: relative;
+    width: 18px;
+    height: 18px;
+    line-height: 15px;
+    overflow: hidden;
+    text-align: center;
+    margin-right: 1px;
+    cursor: pointer;
+    margin-top: 5px;
+
+}
+.focusBox .num li a{
+    background: url("../images/lbbtn.png");
+    background-position: 0 -18px;
+}
+.focusBox .num li a,.focusBox .num li span {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    color: white;
+    width: 95%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+}
+.focusBox .num li.on a,.focusBox .num a:hover{
+    background: url("../images/lbbtn.png");
+    background-position:  0 0;
+}
+.txttitle{
+    font-size: 24px;
+    font-weight: normal;
+    width: 260px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: rgba( 0, 0, 0, 0.5);
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7f000000,endcolorstr=#7f000000);
+}
+.Titswitch{
+    position: relative;
+    height: 55px;
+    width: 525px;
+    margin: 0 auto;
+    top:-55px;
+    z-index: 3;
+    background: rgba( 0, 0, 0, 0.4);
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#77000000,endcolorstr=#77000000);
+}
+.Titswitch ul li{
+    float: left;
+    width: 50%;
+    line-height: 55px;
+    font-size: 20px;
+    text-align: center;
+}
+.list_active{
+    color: #E5D59A ;
+    background: rgba( 124, 41, 9, 0.65) ;
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7f7C2909,endcolorstr=#7f7C2909) ;
+}
+.Titswitch ul li a{
+    color: #E5D59A;
+}
+.listcontent{
+    width: 1120px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.listcontent dl{
+    padding: 40px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+.lc_img{
+    float: left;
+    margin-right: 50px;
+}
+.lc_title{
+    margin: 20px 0;
+    color: #CEB96E;
+    font-size: 24px;
+}
+.lc_title a{
+    color:#CEB96E ;
+}
+.lc_content{
+    margin: 30px 0;
+}
+.leftpage{
+    background: url("../images/lbbtn.png");
+    background-position: 0 -37px;
+    width: 10px;
+    height: 10px;
+    margin-top: 8px;
+    margin-top: 16px;
+}
+.rightpage{
+    background-position: 0 -89px;
+}
+.pager{
+    width: 386px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 68px;
+    font-size: 18px;
+    line-height: 41px;
+}
+.pager ul li{
+    float: left;
+    padding:5px 9px; ;
+}
+.pager ul li a{
+    color: #B3A05A;
+}
+.page_active > a{
+    margin-left: -10px;
+    background: url("../images/lbbtn.png");
+    background-position: 0 -50px;
+    width: 39px;
+    height: 39px;
+    text-align: center;
+    display: block;
+    line-height: 39px;
+}
+/*********************************新闻内容页样式*********************************/
+.bg_content{
+    background: url("../images/contentbg.jpg");
+    width: 1920px;
+    height: 426px;
+}
+.ccontent{
+    width: 1342px;
+    margin: 0 auto;
+    margin-top: -56px;
+}
+.article{
+    margin-top: 100px;
+}
+.article p{
+    margin: 32px 0;
+}
+/******************************集团业务******************************************/
+.titbus{
+    width: 1310px;
+}
+.titbus ul li{
+    width: 20%;
+}
+/*****************轮播*********************/
+.picScroll-left {
+    overflow: hidden;
+    position: relative;
+    margin-top: 56px;
+}
+.picScroll-left  .prev, .picScroll-left  .next {
+    display: block;
+    width: 30px;
+    height: 55px;
+    overflow: hidden;
+    cursor: pointer;
+    position: absolute;
+    background: url("../images/lbbtn.png") 0 -347px no-repeat;
+    top: 87px;
+}
+.picScroll-left  .next{
+    background-position: -38px -347px;
+    right: 0;
+}
+.picScroll-left .bd {
+   padding: 0 43px;
+}
+.picScroll-left .bd ul{
+    /*overflow: hidden;*/
+    zoom: 1;
+}
+.picScroll-left .bd ul li {
+   padding: 0 10px;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+.picScroll-left .bd ul li .pic img {
+    width: 274px;
+    height: 230px;
+    padding: 10px;
+}
+.tilimg{
+    width: 40px;
+    height: 44px;
+    background: url("../images/lbbtn.png");
+    background-position: -72px -350px;
+    display: block;
+    float: left;
+    margin-right: 8px;
+}
+.fcompany{
+    margin: 0 auto;
+    width: 476px;
+}
+.imgcompany{
+    margin: 16px auto;
+}
+.intro{
+    width: 1214px;
+    margin: 0 auto;
+}
+.intro h1{
+    margin-top: 60px;
+    font-weight: normal;
+    color: #835548;
+    font-size: 28px;
+    height: 46px;
+    line-height: 46px;
+    margin-bottom: 20px;
+}
+.intro p{
+    text-indent: 2em;
+   line-height: 28px;
+}
+.aboutus{
+    line-height: 25px;
+}
+/**********************************************************关于我们*************************************************/
+#dituContent{
+    margin: 30px auto 60px;
+
+
+}
+.fatus{
+    width: 480px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+}
+.fatus p{
+    text-align: left;
+       margin: 40px 0;
+}
+.tel{
+    color: #AC7362;
+}
+/******************************************************组织结构+企业文化页面***************************************************/
+.titzzjg{
+  width: 788px;
+}
+
+.titzzjg ul  li{
+    width: 33.3%;
+}
+.cultureli{
+    width: 406px;
+    margin: 0 39px;
+}
+.cultureli dd{
+    padding: 55px 42px;
+    text-indent: 2em;
+}
+.ul_culture{
+    width: 1465px;
+ }
+.logo_tenet{
+    background-position: 0 -1003px;
+}
+.logo_spirit{
+    background-position: 0 -1066px;
+}
+.logo_vision{
+    background-position: 0 -1128px;
+}
+/*******************************************************加盟流程********************************************************/
+.Titprocess{
+    height: 111px;
+}
+.join_content{
+    font-size: 20px;
+}
+.join_content p{
+    margin: 46px 0;
+    text-indent: 2em;
+    line-height: 36px;
+}
+/*****************************************************人才中心*************************************************************/
+.reculist{
+    width: 1410px;
+    margin: 0 auto;
+}
+.s_recculist{
+    width: 15px;
+    height: 15px;
+    display: block;
+    background: url("../images/lbbtn.png");
+    background-position: -20px 0;
+    float: left;
+    margin-right: 6px;
+    margin-top: 5px;
+}
+.reculist dl{
+    padding: 0 46px;
+    padding-bottom: 16px;
+    border-bottom: 1px dashed #ccc;
+}
+.reculist dl dt{
+    font-size: 18px;
+    color: #AC7362;
+    padding: 36px 0;
+}
+.reculist li{
+    margin-bottom: 22px;
+}
+.talent_content{
+    font-size: 18px;
+}
